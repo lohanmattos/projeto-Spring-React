@@ -17,15 +17,15 @@ public class Seller {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String nome;
+	private String name;
 	
 	public Seller() {
 		
 	}
 
-	public Seller(Long id, String nome) {
+	public Seller(Long id, String name) {
 		this.id = id;
-		this.nome = nome;
+		this.name = name;
 	}
 	@OneToMany(mappedBy = "seller")
 	private List<Sale> sales = new ArrayList<>();
@@ -43,12 +43,12 @@ public class Seller {
 		this.id = id;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String nome) {
+		this.name = nome;
 	}
 
 	
