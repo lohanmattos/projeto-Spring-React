@@ -1,0 +1,7 @@
+postgres://
+meboinxoajyean:
+6cb23d4dc93a2ceb8ce4e786e9cda237a5520d11f0b21c50551bb8cfd8723451
+@
+ec2-34-194-100-156.compute-1.amazonaws.com:
+5432/
+dcgb1br1pvak6p
